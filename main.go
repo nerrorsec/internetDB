@@ -26,7 +26,7 @@ func init() {
 	flag.BoolVar(&help, "h", false, "help")
 	flag.StringVar(&ipRange, "r", "", "ip range")
 	flag.StringVar(&searchPorts, "p", "", "ports to search for")
-	flag.IntVar(&threads, "t", 5, "number of threads")
+	flag.IntVar(&threads, "t", 1, "number of threads")
 	flag.Parse()
 }
 
